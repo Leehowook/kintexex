@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.kintex.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/eventFragment"
+        android:name="com.example.kintex.fragments.EventFragment"
+        android:label="fragment_event"
+        tools:layout="@layout/fragment_event" />
+    <fragment
+        android:id="@+id/parkingFragment"
+        android:name="com.example.kintex.fragments.ParkingFragment"
+        android:label="fragment_parking"
+        tools:layout="@layout/fragment_parking" />
+    <fragment
+        android:id="@+id/trafficFragment"
+        android:name="com.example.kintex.fragments.TrafficFragment"
+        android:label="fragment_traffic"
+        tools:layout="@layout/fragment_traffic" />
+    <fragment
+        android:id="@+id/ticketFragment"
+        android:name="com.example.kintex.fragments.TicketFragment"
+        android:label="fragment_ticket"
+        tools:layout="@layout/fragment_ticket" />
+</navigation>

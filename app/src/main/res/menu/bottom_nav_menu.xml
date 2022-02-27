@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:title="홈"
+        android:icon="@drawable/bottom_nav_home"
+        />
+    <item
+        android:id="@+id/eventFragment"
+        android:title="이벤트"
+        android:icon="@drawable/bottom_nav_bell"
+        />
+    <item
+        android:id="@+id/parkingFragment"
+        android:title="주차안내"
+        android:icon="@drawable/bottom_nav_car"
+        />
+    <item
+        android:id="@+id/trafficFragment"
+        android:title="교통안내"
+        android:icon="@drawable/bottom_nav_map"
+        />
+    <item
+        android:id="@+id/ticketFragment"
+        android:title="내입장권"
+        android:icon="@drawable/bottom_nav_bell_card"
+        />
+
+</menu>
